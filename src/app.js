@@ -7,7 +7,6 @@ class PomodoroApp {
     this.$taskForm = document.querySelector(taskFormSelector);
     this.$addButton = document.querySelector(addButtonSelector);
     this.$taskFormInput = this.$taskForm.querySelector('input');
-    this.isLoading = false;
   }
 
   addTask(task) {
